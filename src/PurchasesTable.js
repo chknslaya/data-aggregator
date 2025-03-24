@@ -1,6 +1,6 @@
 import Table from 'react-bootstrap/Table';
 
-function CustomerTable() {
+function PurchasesTable() {
     return (
         <Table striped bordered hover>
             <thead>
@@ -21,4 +21,4 @@ function CustomerTable() {
     )
 }
 
-export default CustomerTable
+export default PurchasesTable
