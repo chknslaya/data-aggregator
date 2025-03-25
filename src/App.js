@@ -2,8 +2,7 @@ import './App.css';
 import DataTable from './DataTable.js';
 import CustomerDropdown from './CustomerDropdown.js';
 import {Container, Row, Col} from 'react-bootstrap'
-import startWorkflow from './Workflow.js';
-import FileViewer from './FileViewer.js';
+import startWorkflow from './Executor.js';
 
 function App() {
   // Get customers first
